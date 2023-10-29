@@ -1,0 +1,91 @@
+/*-- color --*/
+:root{
+    --green: #00B63E;
+    --text-dark: #002146;
+    --main: #C9212F;
+    --color-2:#FFFF00;
+    --color-3:#5EEE44;
+    --color-4:#D2E357;
+    --bg-1:#F4FFFF;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: Roboto-Bold;
+}
+.c-white{
+    color: #fff;
+}
+.bg-white{
+    background:#fff;
+}
+.text-dark{
+    color: var(--text-dark);
+}
+
+
+/*-- important style --*/
+.gap-md, .gap-sm,
+.gap-lg, .gap-xs{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.gap-sm{
+    height: 30px;
+}
+.gap-xs{
+    height: 10px;
+}
+.gap-lg{
+    height: 100px;
+}
+.mg-pd-none{
+    padding: 0;
+    margin:0;
+}
+.large-size{
+    font-size: 30px!important;
+}
+.medium-size{
+    font-size: 18px!important;
+}
+.small-size{
+    font-size: 14px!important;
+}
+.xsmall-size{
+    font-size: 12px!important;
+}
+.hidden{
+    overflow: hidden!important;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.unset{
+    position: unset!important;
+}
+@media only screen and (max-width:991px){
+    .mg-pd-none-mb{
+        padding: 0;
+	    margin:0;
+    }
+    .xsmall-size{
+        font-size: 8px!important;
+    }
+    .small-size{
+        font-size: 12px!important;
+    }
+    .medium-size{
+        font-size: 14px!important;
+    }
+    .large-size{
+        font-size: 20px!important;
+    }
+    .footer-absolute .small-size{
+        font-size: 10px!important;
+    }
+}
