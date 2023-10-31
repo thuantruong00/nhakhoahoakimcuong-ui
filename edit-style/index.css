@@ -50,7 +50,7 @@
 }
 .footer-1{
     background: #f7f7f7;
-    height: 50vh;
+    /* height: 50vh; */
     padding-top: 5vh;
     width: 100%;
     overflow: hidden;
@@ -392,9 +392,12 @@
     }
     .footer-absolute{
         position: relative;
-        bottom: 70px;
+        bottom: 0;
+        z-index: 9999;
+        padding: 20px 0px;
+        font-size: 18px;
     }
     .footer-1{
-        height: 80vh;
+        /* height: 80vh; */
     }
 }
