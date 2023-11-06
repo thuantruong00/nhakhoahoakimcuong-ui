@@ -12,7 +12,7 @@ let interval_func = setInterval(function(){
     // console.log(countdown)
     let temp_minutes = Math.floor(countdown / 60);
     let temp_seconds = countdown % 60;
-    console.log(temp_minutes, temp_seconds)
+    // console.log(temp_minutes, temp_seconds)
     $('#countdown').html(`<p>${temp_minutes} phút ${temp_seconds} giây</p>`)
     if(countdown<=0){
         clearInterval(interval_func);
