@@ -27,8 +27,8 @@ str = `<ul>${str}<li class="d-lg-block d-none"><a href="tel:0966.949.839" class=
 $("#main-menu").html(str)
 
 // image path
-// $("img").each(function(e){
-//     let src = $(this).attr('src');
-//     console.log(src)
-//     $(this).attr('src', path+src)
-// })
+$("img").each(function(e){
+    let src = $(this).attr('src');
+    console.log(src)
+    $(this).attr('src', path+src)
+})
