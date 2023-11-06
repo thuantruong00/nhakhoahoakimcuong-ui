@@ -18,6 +18,24 @@
 	font-family: Roboto-Bold;
 	src: url(roboto/Roboto-Bold.ttf);
 }
+@font-face{
+	font-family: Aligrah-Medium;
+	src: url(Aligarh_Medium/Aligarh-Medium.ttf);
+}
+@font-face{
+	font-family: Lemonada-Regular;
+	src: url(Lemonada/static/Lemonada-Regular.ttf);
+}
+@font-face{
+	font-family: Signika-Regular;
+	src: url(Signika/static/Signika-Regular.ttf);
+}
+@font-face{
+	font-family: Vollkorn-Regular;
+	src: url(Vollkorn/static/Vollkorn-Regular.ttf);
+}
+
+
 *{
 	margin: 0;
 	padding: 0;
