@@ -104,7 +104,8 @@
 
 .slider-banner .wrap-img {
     width: 100%;
-    height: calc(100vh - 150px);
+    /* height: calc(100vh - 150px); */
+    height: 100vh;
     position: relative;
 }
 
@@ -223,6 +224,9 @@
 
 .service .wrap-img img {
     border-radius: 16px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .service .wrap-img .label-item {
@@ -679,7 +683,8 @@
 }
 
 .contact,
-.customer {
+.customer,
+.guarantee {
     background-image: linear-gradient(-90deg, #000 30%, #022E4F);
     /* height: 100vh; */
 }
@@ -766,11 +771,63 @@
 }
 
 /* ============================================ */
+.slide-intro .owl-item img{
+    height: 50vh;
+    object-fit: cover;
+}
+.guarantee-title{
+    font-family: Vollkorn-Regular,Signika-Regular;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#FEF069, #AB9280);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+}
+.guarantee .wrap-box .img{
+    /* height: 100px;
+    width: 100px; */
+    background-image: linear-gradient(-45deg, #F6EBDB 60%, #022E4F);
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.guarantee .wrap-box .img img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    display: inline-block;
+}
+.guarantee .wrap-box{
+
+    width: 100%;
+    height: 100px;
+    background: rgba(255,255,255,0.2);
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 50px;
+
+}
+.guarantee .wrap-box .content{
+    color: #fff;
+    font-family: Lemonada-Regular;
+    position: relative;
+    top: 50px;
+}
+
+
+/* ============================================ */
 @media only screen and (max-width:1250px) {
     .wrap-logo img {
         height: auto;
         width: 40vw;
     }
+
 }
 
 @media only screen and (max-width:991px) {
@@ -861,7 +918,9 @@
     .slider-banner .wrap-img{
         height: 50vw;
     }
-
+    .guarantee-title{
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width:500px) {
     .slider-banner .wrap-img .content{
@@ -876,6 +935,9 @@
         top: 10%;
         left: 10%;
         transform: translate(0,0);
+    }
+    .service .wrap-img{
+        height: 180px;
     }
 }
 @media only screen and (max-width:350px) {
