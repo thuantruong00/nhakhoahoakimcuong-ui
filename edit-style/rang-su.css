@@ -1,0 +1,21 @@
+.main-title{
+    color: var(--main);
+    text-transform: uppercase;
+}
+.list-dec li{
+    list-style-type: decimal;
+    margin-bottom: 12px;
+}
+.list-disc li{
+    list-style-type:disc;
+    margin-bottom: 12px;
+}
+.size-m{
+    font-size: 20px;
+}
+.list-dec, .list-disc{
+    padding: 0px 16px;
+}
+.wrap-img{
+    padding: 20px;
+}
